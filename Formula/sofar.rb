@@ -15,8 +15,8 @@
 class Sofar < Formula
   desc "Event-sourced initiative memory for coding agents"
   homepage "https://sofar.sh"
-  url "https://registry.npmjs.org/sofar.sh/-/sofar.sh-0.38.0.tgz"
-  sha256 "4ba0176045728aa6cea597a3a6cafbfac60554afc1ef6a5513bd83f6b3c9ab8b"
+  url "https://registry.npmjs.org/sofar.sh/-/sofar.sh-0.39.1.tgz"
+  sha256 "4b414f8a7fbef0ff93434618a9474d29d1129fac7c733d6cc8431b82841bc62f"
   license "MIT"
 
   livecheck do
@@ -32,15 +32,15 @@ class Sofar < Formula
   on_macos do
     on_arm do
       resource "core" do
-        url "https://registry.npmjs.org/@sofar.sh/core-darwin-arm64/-/core-darwin-arm64-0.38.0.tgz"
-        sha256 "4041502871f4f6d586a05d6ab6c69c5264a572e4037f055d2822c516bcd88775"
+        url "https://registry.npmjs.org/@sofar.sh/core-darwin-arm64/-/core-darwin-arm64-0.39.1.tgz"
+        sha256 "73b403f962a4ba6d8546fab10088757a4f606dac253824e5cbc6b12d25278c47"
       end
     end
 
     on_intel do
       resource "core" do
-        url "https://registry.npmjs.org/@sofar.sh/core-darwin-x64/-/core-darwin-x64-0.38.0.tgz"
-        sha256 "c23185f0c8aabaf8b73968387a0bae0b3074c3b4ee513a0964bbc5aa395272db"
+        url "https://registry.npmjs.org/@sofar.sh/core-darwin-x64/-/core-darwin-x64-0.39.1.tgz"
+        sha256 "c8295e4cdce8558e64797300c7be6e17024b11c7e8a1c9d8fdcc3ce37ef88bd0"
       end
     end
   end
@@ -48,15 +48,15 @@ class Sofar < Formula
   on_linux do
     on_intel do
       resource "core" do
-        url "https://registry.npmjs.org/@sofar.sh/core-linux-x64/-/core-linux-x64-0.38.0.tgz"
-        sha256 "50c22dd93f354d21c6cc7b61daa6e055ea8b153e4b73b11388891abcd704297e"
+        url "https://registry.npmjs.org/@sofar.sh/core-linux-x64/-/core-linux-x64-0.39.1.tgz"
+        sha256 "b7038eedc5a03c4be43b3c5ffe8d5fab3767d7fc745f49434e6c16fba8001c68"
       end
     end
 
     on_arm do
       resource "core" do
-        url "https://registry.npmjs.org/@sofar.sh/core-linux-arm64/-/core-linux-arm64-0.38.0.tgz"
-        sha256 "25bc0228a23490dcbca2ac23d820d923e8aa2203b5d49edd552a077f7c230062"
+        url "https://registry.npmjs.org/@sofar.sh/core-linux-arm64/-/core-linux-arm64-0.39.1.tgz"
+        sha256 "4d2741a5585d4c254c73422ac90964dc322202d91b0f23f709836e830452cf22"
       end
     end
   end
